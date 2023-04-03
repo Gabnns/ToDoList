@@ -17,8 +17,7 @@ Aplicação Web de uma TODO List, com algumas funções mais avançadas adiciona
 </p>
 
 
-  ![ToDo List]((https://user-images.githubusercontent.com/86312347/229604149-e11dc61b-e38f-49c7-943c-fc5436dd9d6c.png)
-
+![ToDo List](https://user-images.githubusercontent.com/86312347/229604787-452b7ab1-da73-4532-a443-b363f63ea6c1.png)
 
 
 <br>
