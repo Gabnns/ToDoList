@@ -34,7 +34,7 @@ Aplicação Web de uma TODO List, com algumas funções mais avançadas adiciona
 
 - To-Do Lists são listas de todas as tarefas que você precisa realizar, ou seja, elas listam tudo que você tem a fazer, com as tarefas mais importantes no topo, e as tarefas menos importantes na parte inferior da lista. 
 
-- ![Visite o projeto online](https://gabnns.github.io/ToDoList/)
+- ![Visite o projeto online](https://gabnns.github.io/ToDoList/) 
 
 
 
