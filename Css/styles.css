@@ -1,9 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
 /* GERAL */
 * {
   padding: 0;
   margin: 0;
-  font-family: Helvetica, sans-serif;
-  color: darkred;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(134, 4, 4);
   box-sizing: border-box;
 }
 
@@ -18,7 +22,8 @@ body {
 
 button {
   background-color: aliceblue;
-  border: 2px solid #a33;
+  border: none;
+  border-radius: 4px;
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -30,8 +35,9 @@ button {
 
 button:hover {
   background-color: rgb(199, 58, 58);
+  color: antiquewhite;
 }
-button:hover > i {
+button:hover i {
   color: antiquewhite;
 }
 button i {
@@ -42,8 +48,15 @@ button i {
 
 input,
 select {
-  padding: 0.2rem 0.5rem;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    outline: none;
 }
+input::placeholder {
+    color: #dd4e4e5b;
+}
+
 
 .hide {
     display: none;
@@ -54,20 +67,22 @@ select {
 .todo-container {
     max-width: 450px;
     margin: 3rem auto;
-    background-color: aliceblue;
+    background-color: rgba(228, 104, 73, 0.712);
     padding: 1.5rem;
     border-radius: 20px;
+    box-shadow: 10px 50px 100px rgb(71, 17, 17);
+
 }
 .todo-container header {
     text-align: center;
     padding: 0 1rem 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
 }
 
 /* TODO Form */
 #todo-form, #edit-form {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
 }
 
 #todo-form p,
@@ -88,7 +103,7 @@ select {
 /* TODO Toolbar */
 #toolbar {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
     display: flex;
 }
 #toolbar h4 {
@@ -133,7 +148,7 @@ select {
 
 .todo h3 {
     flex: 1;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .todo button {
@@ -141,7 +156,7 @@ select {
 }
 
 .done {
-    background-color: rgba(241, 145, 121, 0.39);
+    background-color: rgba(13, 165, 26, 0.658);
 }
 
 .done h3{
